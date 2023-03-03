@@ -11,7 +11,12 @@
   <title>ISSSE 2023</title>
 
   <!-- Bootstrap core CSS -->
+ 
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -72,6 +77,9 @@
           </li>
         -->
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="https://sesalabunisa.github.io/en/issse.html?year=2021" target="_blank">Previous Editions</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="https://sesalabunisa.github.io/en/index.html" target="_blank"><h4>SeSa Lab</h4></a>
           </li>
         </ul>
@@ -105,15 +113,16 @@
       <div class="row">
         <div class="col-lg-8 mx-auto my-4">
           <p class="mt-4 mb-2 text-justify">
-            <h4>ISSSE</h4>
-            The <b>16th International Summer School on Software Engineering</b> (ISSSE 2023) aims to provide a place to let Master's and fresh Ph.D. students get in touch with top Software Engineering scholars and the research they pursue. The school is at its 16th edition and typically attracts Ph.D. students from all around the world.
+            The <b>16th International Summer School on Software Engineering (ISSSE 2023)</b> aims to provide a place to let Master's and fresh Ph.D. students get in touch with top Software Engineering scholars and the research they pursue. The school is at its 16th edition and typically attracts Ph.D. students from all around the world.
             <br><br>
-            <h4>SATToSE</h4>
-            This year's ISSSE is co-located with the <b>15th Seminar on Advanced Techniques & Tools for Software Evolution</b> (SATToSE).
-            In particular, two days of the program overlap between ISSSE and SATToSE. On such days, invited talks will alternate with SATToSE seminars. Find more information at <a href="http://sattose.org/2023" target="_blank" class="">http://sattose.org/2023</a>.
+            ISSSE includes the <b>1st edition of the Engineering Machined Learning-Intensive IoT Systems (EMELIOT)</b>. EMELIOT is a thematic workshop on topics connected to the development, design, testing, maintenance, and evolution of complex IoT systems enabled by machine learning algorithms. EMELIOT seeks to foster discussion on the next advances and challenges for the software engineering community concerning the engineering aspects of machine learning-intensive IoT systems.
+            <br>
+            EMELIOT accepts presentation abstracts (max two pages) on research results without inclusion in the proceedings. They will only be reviewed for relevance and will be made available on the workshop website. Presentation abstracts can either be novel research results or results that have already been published or are ready to be submitted to a conference or a journal. Of particular interest are summaries that try to provoke discussion, initiate challenging new avenues, etc.
+            <br>
+            Please adhere to <a href="http://ceur-ws.org/Vol-XXX/CEURART.zip" target="_blank" class="">this latex style</a>, two-column style (sample-2col.tex and ceurart.cls). An Overleaf page for LaTeX users is available <a href="https://www.overleaf.com/read/gwhxnqcghhdt" target="_blank" class="">here</a>. This format is compatible with the CEUR Workshop Proceedings.
+            The abstract can be submitted using this link: <a href="https://forms.gle/TuncR4HaNg5BqR8L6" target="_blank" class="">https://forms.gle/TuncR4HaNg5BqR8L6</a>
             <br><br>
-            <h4>EMELIOT</h4>
-            Furthermore, ISSSE includes the <b>1st edition of the workshop on Engineering Machined Learning-Intensive IoT Systems</b> (EMELIOT). EMELIOT is a thematic workshop on topics connected to the development, design, testing, maintenance, and evolution of complex IoT systems enabled by machine learning algorithms. EMELIOT seeks to foster discussion on the next advances and challenges for the software engineering community concerning the engineering aspects of machine learning-intensive IoT systems.
+            This year's ISSSE is co-located with the <b>15th Seminar on Advanced Techniques & Tools for Software Evolution (SATToSE)</b>. In particular, two days of the program overlap between ISSSE and SATToSE. On such days, invited talks will alternate with SATToSE seminars. Find more information at <a href="http://sattose.org/2023" target="_blank" class="">http://sattose.org/2023</a>.
           </p>
         </div>
       </div>
@@ -192,61 +201,114 @@
 
             <div class="col-lg-4 text-center">
               <a href="https://mau.se/en/persons/helena.holmstrom.olsson/" target="_blank">
-                <img class="img-fluid rounded-circle mb-3 col-lg-6" src="img/helena.jpeg" alt="Helena Holmström Olsson">
+                <img class="img-fluid rounded-circle mb-3 col-lg-10" src="img/helena_2.JPG" alt="Helena Holmström Olsson">
               </a>
-              <a href="https://mau.se/en/persons/helena.holmstrom.olsson/" target="_blank" class="text-dark">
+              <a href="https://mau.se/en/persons/helena.holmstrom.olsson/" target="_blank" class="text-dark text-decoration-none">
                 <h5 class>Helena Holmström Olsson</h5>
                 <p class="font-weight-light mb-0">
                   Malmö University
                 </p>
               </a>
-              <!--
-              <a data-toggle="modal" href="#firstKeynote">
-                <p class="font-weight-light mt-3 mb-0 text-danger">
-                  Flaky Tests: Problems, Solutions, and Challenges
+              
+              <!-- Button trigger modal -->
+              <br>
+              <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="text-dark">
+                <p class="font-weight-light mb-0">
+                  More info
                 </p>
               </a>
-              -->
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Your system gets better every day you use it: Towards continuous value delivery in the embedded systems domain</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="text-justify">
+                        <b>Abstract.</b> With digitalization and with technologies such as software, data, and artificial intelligence, companies in the embedded systems domain are experiencing a fundamental shift in how they develop, deploy, maintain and evolve their systems. Also, dimensions such as how to align with partners for innovation and new value creation, as well as models for how to monetize this value change dramatically when physical systems are increasingly being complemented with software services, data-driven offerings, and digital products. This talk explores the opportunities that come with continuous deployment of software and how companies in the embedded systems domain can benefit from data collection and feature experimentation practices in the transition from traditional towards digital companies. The talk focuses on the changes associated with processes and ways-of-working, but also new engagement models for value creation and monetization. To illustrate the transition, the talk provides concrete examples based on action-oriented research conducted in close collaboration with companies in the the embedded systems domain.
+                        <br><br>
+                        <b>Bio.</b> Helena Holmström Olsson is a professor of Computer Science at Malmö University, Sweden and a senior researcher in Software Center (software-center.se). Her research interests and expertise include engineering aspects of AI systems, data driven development practices, digitalization and digital transformation, and software and business ecosystems. She is the supervisor of several PhD students in the area of data driven development and AI engineering, focusing in particular on the business and organizational implications of AI deployment, and she has a well-established and continuous collaboration with the European software-intensive embedded systems industry.
+                        <br>
+                        Her research is published in high-quality software engineering journals and conferences and she is program chair for the “2nd International Conference on AI Engineering - Software Engineering for AI” (CAIN) 2023. Helena is a fellow member of the International Software Product Management Association (ISPMA) and a board member of Malmö University, Sweden.
+                      </p>
+                    </div>
+
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
             </div>
 
 
             <div class="col-lg-4 text-center">
               <a href="https://www.tue.nl/en/research/researchers/alexander-serebrenik/" target="_blank">
-                <img class="img-fluid rounded-circle mb-3 col-lg-6" src="img/alexander-serebrenik.jpeg" alt="Alexander Serebrenik">
+                <img class="img-fluid rounded-circle mb-3 col-lg-10" src="img/alexander-serebrenik.jpeg" alt="Alexander Serebrenik">
               </a>
-              <a href="https://www.tue.nl/en/research/researchers/alexander-serebrenik/" target="_blank" class="text-dark">
+              <a href="https://www.tue.nl/en/research/researchers/alexander-serebrenik/" target="_blank" class="text-dark text-decoration-none">
                 <h5 class>Alexander Serebrenik</h5>
                 <p class="font-weight-light mb-0">
                   Eindhoven University of Technology
                 </p>
               </a>
-              <!--
-              <a data-toggle="modal" href="#firstKeynote">
-                <p class="font-weight-light mt-3 mb-0 text-danger">
-                  Flaky Tests: Problems, Solutions, and Challenges
-                </p>
-              </a>
-              -->
+              
+            
             </div>
 
 
             <div class="col-lg-4 text-center">
               <a href="https://research.facebook.com/people/harman-mark/" target="_blank">
-                <img class="img-fluid rounded-circle mb-3 col-lg-6" src="img/mark-harman.jpg" alt="Mark Harman">
+                <img class="img-fluid rounded-circle mb-3 col-lg-10" src="img/mark-harman.jpg" alt="Mark Harman">
               </a>
-              <a href="https://research.facebook.com/people/harman-mark/" target="_blank" class="text-dark">
+              <a href="https://research.facebook.com/people/harman-mark/" target="_blank" class="text-dark text-decoration-none">
                 <h5>Mark Harman</h5>
                 <p class="font-weight-light mb-0">
                   Meta & University College London
                 </p>
               </a>
-              <!--
-              <a data-toggle="modal" href="#firstKeynote">
-                <p class="font-weight-light mt-3 mb-0 text-danger">
-                  Flaky Tests: Problems, Solutions, and Challenges
+              
+              <!-- Button trigger modal -->
+              <br>
+              <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal_2" class="text-dark">
+                <p class="font-weight-light mb-0">
+                  More info
                 </p>
               </a>
-              -->
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal_2" tabindex="-1" aria-labelledby="exampleModalLabel_2" aria-hidden="true">
+                <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Software Testing and Genetic Improvement Research Challenges: An Industrial Perspective</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="text-justify">
+                        <b>Abstract.</b> There have been rapid recent developments in automated software test design, repair and program improvement. Advances in artificial intelligence also have great potential impact to tackle software testing research problems. In this keynote we highlight open research problems and challenges from an industrial perspective. This perspective draws on  our experience at Meta Platforms, which has been actively involved in software testing research and development for approximately a decade. As we set out here, there are many exciting opportunities for software testing research to achieve the widest and deepest impact on software practice. With this overview of the research landscape from an industrial perspective, we aim to stimulate further interest in the deployment of software testing research. We hope to be able to collaborate with the scientific community on some of these research challenges.
+                        <br>
+                        There is an ICST 2023 keynote paper related to this tutorial.
+                        The tutorial talk will be given by Mark Harman. The paper is by Nadia Alshahwan, Mark Harman and Alexandru Marginean.
+                        Thanks to the many Meta engineers, managers and leadership for their assistance, support and work on deploying automated software testing and improvement techniques.
+                        <br><br>
+                        <b>Bio.</b> Mark Harman is a full-time Research Scientist at Meta Platforms in the Instagram Product Performance team, working on software, engineering automation. He was previously in the Simulation-Based Testing (SBT) team at Meta, which he co-founded. The SBT team developed and deployed both the Sapienz and WW platforms for client- and server- side testing. Sapienz grew out of Majicke (a start up Mark co-founded) that was acquired by Facebook (now Meta Platforms) in 2017. Prior to working at Meta Platforms, Mark was head of Software Engineering at UCL and director of its CREST centre, where he remains a part time professor. In his more purely scientific work, he co-founded the field Search Based Software Engineering (SBSE) in 2001. He received the IEEE Harlan Mills Award and the ACM Outstanding Research Award in 2019 for his work, and was awarded a fellowship of the Royal Academy of Engineering in 2020.
+                      
+                      </p>
+                    </div>
+
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
             </div>
             
 
@@ -257,9 +319,9 @@
 
             <div class="col-lg-4 text-center">
               <a href="https://mairieli.com/" target="_blank">
-                <img class="img-fluid rounded-circle mb-3 col-lg-6" src="img/mairieli.jpeg" alt="Mairieli Wessel">
+                <img class="img-fluid rounded-circle mb-3 col-lg-10" src="img/mairieli.jpeg" alt="Mairieli Wessel">
               </a>
-              <a href="https://mairieli.com/" target="_blank" class="text-dark">
+              <a href="https://mairieli.com/" target="_blank" class="text-dark text-decoration-none">
                 <h5>Mairieli Wessel</h5>
                 <p class="font-weight-light mb-0">
                   Radboud University
@@ -277,9 +339,9 @@
 
             <div class="col-lg-4 text-center">
               <a href="https://baresi.faculty.polimi.it/" target="_blank">
-                <img class="img-fluid rounded-circle mb-3 col-lg-6" src="img/luciano-baresi.jpeg" alt="Luciano Baresi">
+                <img class="img-fluid rounded-circle mb-3 col-lg-10" src="img/luciano-baresi.jpeg" alt="Luciano Baresi">
               </a>
-              <a href="https://baresi.faculty.polimi.it/" target="_blank" class="text-dark">
+              <a href="https://baresi.faculty.polimi.it/" target="_blank" class="text-dark text-decoration-none">
                 <h5>Luciano Baresi</h5>
                 <p class="font-weight-light mb-0">
                   Politecnico di Milano
@@ -297,9 +359,9 @@
 
             <div class="col-lg-4 text-center">
               <a href="https://www.unisannio.it/it/user/484/curriculum" target="_blank">
-                <img class="img-fluid rounded-circle mb-3 col-lg-6" src="img/max.jpeg" alt="Massimiliano Di Penta">
+                <img class="img-fluid rounded-circle mb-3 col-lg-10" src="img/max.jpeg" alt="Massimiliano Di Penta">
               </a>
-              <a href="https://www.unisannio.it/it/user/484/curriculum" target="_blank" class="text-dark">
+              <a href="https://www.unisannio.it/it/user/484/curriculum" target="_blank" class="text-dark text-decoration-none">
                 <h5>Massimiliano Di Penta</h5>
                 <p class="font-weight-light mb-0">
                   University of Sannio
